@@ -8,6 +8,6 @@ ____
 
 # The Service
 
-The service made available is ```srv/FkCustomSolver.srv``` and contains the definition of the request and the response to be able to use it. The message defines a ```RobotState`` type request to be able to perform the necessary calculations from which to generate the requested service.
+The service made available is ```srv/FkCustomSolver.srv``` and contains the definition of the request and the response to be able to use it. The message defines a ```RobotState``` type request to be able to perform the necessary calculations from which to generate the requested service.
 ____
 ##### Vittorio Fina
