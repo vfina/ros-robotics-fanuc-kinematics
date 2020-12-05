@@ -1,0 +1,8 @@
+# This is a service definition for a custom forward kinematics service
+# The robot_state contains informations about the robot state, i.e.
+# the positions of its joints and links.
+moveit_msgs/RobotState robot_state
+---
+# The end_effector_pose contains a representation of pose in free space related
+# to the end effector, since the service performs direct kinematics.
+geometry_msgs/Pose end_effector_pose

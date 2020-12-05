@@ -1,0 +1,8 @@
+<!-- This launch file is responsible for launching the node for simulating the fanuc -->
+<!-- robot with rviz, setting the value of the planning_group_name on the parameter server -->
+<!-- and launching the server for the calculation of the direct kinematics.-->
+<launch>
+    <include file="$(find fanuc_moveit_config)/launch/demo.launch" />
+    <param name="planning_group_name" value="fanuc"/>
+    <node name="fksolver_server" pkg="fksolver_server" type="fksolver_server" output="screen"/>
+</launch>
