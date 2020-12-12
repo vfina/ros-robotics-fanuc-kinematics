@@ -1,0 +1,8 @@
+# Goal Definition
+geometry_msgs/Pose end_effector_pose
+---
+# Result Definition
+moveit_msgs/RobotState[] ik_solutions
+---
+# Feedback Definition
+moveit_msgs/RobotState ik_solution
