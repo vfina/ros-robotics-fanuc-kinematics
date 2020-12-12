@@ -1,3 +1,5 @@
+# This action defines the needed tools for computing the inverse kinematics and 
+# defines the feedback as a part of the result.
 # Goal Definition
 geometry_msgs/Pose end_effector_pose
 ---
