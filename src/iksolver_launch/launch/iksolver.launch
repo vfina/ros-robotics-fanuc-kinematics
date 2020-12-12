@@ -1,3 +1,6 @@
+<!-- This launch file is responsible for launching the node for simulating the fanuc -->
+<!-- robot with rviz, setting the value of the planning_group_name on the parameter server -->
+<!-- and launching the server for the calculation of the inverse kinematics as well as the robot state publisher.-->
 <launch>
 
     <arg name="use_rviz" default="true"/>

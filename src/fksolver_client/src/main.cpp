@@ -39,7 +39,7 @@ int main (int argc, char **argv) {
     ros::NodeHandle n;
 
     /*
-     * The serviceClient() function is a how you tell ROS that you want to make a request
+     * The serviceClient() function is how you tell ROS that you want to make a request
      * for a service available on the service server, which is in this case /fk_solver. 
      */
     ros::ServiceClient fk_client = n.serviceClient<fksolver_msgs::FkCustomSolver>("fk_solver");
